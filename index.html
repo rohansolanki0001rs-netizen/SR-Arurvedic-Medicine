@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SR Ayurvedic — Premium Joint Care</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--accent:#2e7d32;--danger:#e53935;--bg:#fdfaf6;--card:#ffffff;--muted:#666}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Roboto,system-ui,-apple-system,Segoe UI,Arial;background:var(--bg);color:#222;line-height:1.45}
+  header{background:linear-gradient(180deg, rgba(46,125,50,0.85), rgba(46,125,50,0.72)), url('images/luxury_pack.png') center/cover no-repeat;color:#fff;padding:90px 20px;text-align:center}
+  header h1{font-family:'Playfair Display',serif;font-size:44px;margin:0 0 10px}
+  header p{font-size:18px;margin:0 0 20px;opacity:0.95}
+  .cta{display:inline-block;background:var(--danger);color:#fff;padding:14px 28px;border-radius:40px;text-decoration:none;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,0.18)}
+  .container{max-width:1100px;margin:40px auto;padding:0 18px}
+  .products{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+  .card{background:var(--card);border-radius:18px;overflow:hidden;box-shadow:0 18px 40px rgba(15,15,15,0.08);transition:transform .35s}
+  .card:hover{transform:translateY(-8px)}
+  .card img{width:100%;height:240px;object-fit:cover;display:block}
+  .card-body{padding:20px}
+  .product-title{font-size:20px;margin:0 0 8px}
+  .desc{color:var(--muted);font-size:14px;margin:0 0 14px}
+  .price{font-size:22px;color:var(--danger);font-weight:800;margin-bottom:12px}
+  .buy{display:inline-block;background:var(--accent);color:#fff;padding:10px 18px;border-radius:14px;text-decoration:none;font-weight:700}
+  .features{display:flex;gap:18px;margin:36px 0;flex-wrap:wrap;justify-content:center}
+  .feat{background:#fff;padding:18px;border-radius:12px;min-width:210px;box-shadow:0 8px 20px rgba(0,0,0,0.06);text-align:center}
+  .feat h4{margin:0 0 8px;color:var(--accent)}
+  .testimonials{background:linear-gradient(180deg,#fff7f2,#fff);padding:36px;border-radius:16px;box-shadow:0 12px 30px rgba(0,0,0,0.04);margin-top:30px}
+  footer{background:#111;margin-top:40px;color:#ddd;padding:26px 18px;text-align:center;font-size:14px}
+  @media(max-width:980px){.products{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:640px){header{padding:70px 12px} .products{grid-template-columns:1fr} .features{flex-direction:column;align-items:stretch}}
+  .whatsapp-fix{position:fixed;right:18px;bottom:20px;background:#25D366;color:#fff;padding:14px 16px;border-radius:50px;box-shadow:0 12px 30px rgba(0,0,0,0.25);text-decoration:none;font-weight:700}
+  .ribbon{position:absolute;left:18px;top:18px;background:linear-gradient(90deg,#ffd54f,#ff8a65);padding:8px 12px;border-radius:8px;font-weight:700;color:#222}
+  .badge-high{display:inline-block;background:#111;color:#fff;padding:6px 10px;border-radius:8px;font-weight:700;margin-left:8px;font-size:13px}
+</style>
+</head>
+<body>
+
+<header>
+  <div style="position:relative;display:inline-block">
+    <div class="ribbon">SR Ayurvedic</div>
+    <h1>SR Ayurvedic — Luxury Joint Relief</h1>
+  </div>
+  <p>Advanced Ayurvedic formulas — targeted relief for knees, hips & shoulders. Limited premium batches.</p>
+  <a class="cta" href="https://wa.me/918739853696" target="_blank">Order on WhatsApp</a>
+</header>
+
+<main class="container">
+  <section style="text-align:center;margin-bottom:18px">
+    <h2 style="margin:0 0 8px">Our Flagship Remedies</h2>
+    <p style="color:var(--muted);margin:0">Luxury-grade formulations made from traditional herbs — limited batches only.</p>
+  </section>
+
+  <section class="products">
+    <!-- Product 1 -->
+    <article class="card">
+      <img src="images/platinum_oil.png" alt="Premium Joint Oil">
+      <div class="card-body">
+        <h3 class="product-title">Platinum Joint Relief Oil <span class="badge-high">High-End</span></h3>
+        <p class="desc">Cold-pressed herbal oil with rasayana extracts — soothes stiffness, improves mobility.</p>
+        <div class="price">₹4,499</div>
+        <a class="buy" href="https://wa.me/918739853696?text=I%20want%20to%20order%20Platinum%20Joint%20Relief%20Oil">Buy via WhatsApp</a>
+      </div>
+    </article>
+
+    <!-- Product 2 -->
+    <article class="card">
+      <img src="images/golden_capsules.png" alt="Herbal Capsules">
+      <div class="card-body">
+        <h3 class="product-title">Golden Joint Capsules <span class="badge-high">Premium</span></h3>
+        <p class="desc">Standardized polyherbal capsules for cartilage support. 60-capsules bottle.</p>
+        <div class="price">₹5,999</div>
+        <a class="buy" href="https://wa.me/918739853696?text=I%20want%20to%20order%20Golden%20Joint%20Capsules">Buy via WhatsApp</a>
+      </div>
+    </article>
+
+    <!-- Product 3 -->
+    <article class="card">
+      <img src="images/luxury_pack.png" alt="Joint Care Pack">
+      <div class="card-body">
+        <h3 class="product-title">Luxury Joint Care Pack <span class="badge-high">Best Value</span></h3>
+        <p class="desc">Complete pack: oil + capsules — 30-day luxury program for relief and mobility restoration.</p>
+        <div class="price">₹11,999</div>
+        <a class="buy" href="https://wa.me/918739853696?text=I%20want%20to%20order%20Luxury%20Joint%20Care%20Pack">Buy via WhatsApp</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="features" aria-label="benefits">
+    <div class="feat"><h4>Pure & Traceable</h4><p style="margin:0;color:var(--muted)">Sourced herbs, lab-tested for purity.</p></div>
+    <div class="feat"><h4>Clinically-Inspired</h4><p style="margin:0;color:var(--muted)">Formulations inspired by classical texts + modern quality checks.</p></div>
+    <div class="feat"><h4>Luxury Packaging</h4><p style="margin:0;color:var(--muted)">Premium glass bottles & secure sealing.</p></div>
+  </section>
+
+  <section style="margin-top:28px">
+    <div class="testimonials">
+      <h3 style="margin:0 0 8px;text-align:center">Customer Stories</h3>
+      <p style="color:var(--muted);text-align:center;margin:0 0 18px">Real results from customers who chose the luxury protocol.</p>
+      <div style="max-width:900px;margin:18px auto;display:grid;grid-template-columns:repeat(2,1fr);gap:16px">
+        <blockquote style="margin:0;padding:18px;background:#fff;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.05)">
+          "After 3 weeks my knee pain reduced drastically — the oil feels premium and works." <br/><strong>- Sangeeta, 58</strong>
+        </blockquote>
+        <blockquote style="margin:0;padding:18px;background:#fff;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.05)">
+          "Capsules improved mobility — I returned to morning walks. Highly recommended." <br/><strong>- Manoj, 64</strong>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="whatsapp-fix" href="https://wa.me/918739853696" target="_blank">💬 Order Now</a>
+
+<footer>
+  &copy; 2025 SR Ayurvedic • For serious, premium joint support. <br/>
+  Contact: <a href="https://wa.me/918739853696" style="color:#fff;text-decoration:underline">+91 87398 53696</a>
+</footer>
+
+<script>
+  document.querySelectorAll('img').forEach(i=>i.loading='lazy');
+</script>
+
+</body>
+</html>
